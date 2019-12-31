@@ -462,6 +462,19 @@
     margin-bottom: 10px;
 }
 
+/* Iphone 5 */
+@media screen and (min-width: 300px) and (max-width: 330px) {
+
+    .content h3:first-child {
+        font-size: 25px;
+    }
+
+    .right-card svg {
+        margin-bottom: 150px;
+    }
+
+}
+
 /*-- -------------------------- -->
 <---            FAQ             -->
 <--- -------------------------- -*/
@@ -527,6 +540,8 @@
 
 .review-h3 {
     position: relative;
+    padding-left: 36px;
+    padding-right: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -544,7 +559,7 @@
     background: transparent;
     height: 240px;
     width: 180px;
-    border: 10px solid rgb(255, 255, 255, .3);
+    border: 10px solid rgba(255, 255, 255, .3);
     top: -50px;
 }
 
@@ -555,6 +570,8 @@
     font-size: 20px;
     text-align: center;
     margin-bottom: 120px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .review {
