@@ -2,95 +2,11 @@
 <---           LANDING          -->
 <--- -------------------------- -*/
 
-#hero {
-    height: 650px;
-    width: 100%;
-    background:url("../images/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
 
-#dark {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: 0.4;
-    z-index: 2;
-}
-
-.heroText {
-	padding-top: 0;
-    position: relative;
-    z-index: 3;
-    height: auto;
-    margin-left: 0;
-}
-
-.heroText h1 {
-	font-size: 2.2em;
-	color: #fff;
-	text-align: left;
-	font-weight: bold;
-	overflow-y: hidden;
-    margin: 0;
-}
-
-.heroText h2 {
-	color: #fff;
-	font-size: 16px;
-	text-align: left;
-	line-height: 1.6em;
-    padding: 30px 0;
-    position: relative;
-    font-weight: normal;
-}
-
-.heroText h2:before {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 5px;
-    background: var(--primary);
-    top: 12px;
-}
-
-.about-button {
-    width: 188px;
-}
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
-    /*-- -------------------------- -->
-    <---          LANDING           -->
-    <--- -------------------------- -*/
-
-    .container {
-        max-width: 700px;
-    }
-
-    .heroText {
-        width: 700px;
-    }
-
-    #home-h {
-        width: 550px;
-    }
-
-    #home-p {
-        width: 450px;
-    }
-
-    .about-button {
-        margin-right: 30px;
-    }
 
 }
 
@@ -101,72 +17,6 @@
     <---           LANDING          -->
     <--- -------------------------- -*/
 
-    #hero {
-        height: 800px;
-        width: 100%;
-        background:url("../images/landing.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        color: #fff;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    #dark {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: #000;
-        opacity: 0.4;
-        z-index: 2;
-    }
-
-    .heroText {
-        padding: 70px 0 0;
-        position: relative;
-        z-index: 3;
-        height: auto;
-        margin-left: 0;
-        width: 1100px !important;
-    }
-
-    .heroText h1 {
-        font-size: 2.2em;
-        color: #fff;
-        text-align: left;
-        font-weight: bold;
-        overflow-y: hidden;
-        margin: 0;
-        width: 600px;
-    }
-
-    .heroText h2 {
-        color: #fff;
-        font-size: 16px;
-        text-align: left;
-        line-height: 1.6em;
-        padding: 30px 0;
-        width: 680px;
-        position: relative;
-        font-weight: normal;
-    }
-
-    .heroText h2:before {
-        content: '';
-        position: absolute;
-        width: 60px;
-        height: 5px;
-        background: var(--primary);
-        top: 12px;
-    }
-
-    .about-button {
-        width: 188px;
-        margin-right: 30px;
-    }
+    
 
 }
