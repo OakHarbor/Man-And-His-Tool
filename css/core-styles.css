@@ -507,6 +507,11 @@ h1, h2, h3, h4, h5, h6 {
     <---           CONTACT          -->
     <--- -------------------------- -*/
 
+    #contact-strip {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .top {
         margin: auto !important;
     }
@@ -879,7 +884,9 @@ footer p {
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
-
+    footer {
+        padding-top: 100px;
+    }
 
 }
 
