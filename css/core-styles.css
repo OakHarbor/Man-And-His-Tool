@@ -457,6 +457,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-group p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .contact-button {
@@ -500,23 +507,26 @@ h1, h2, h3, h4, h5, h6 {
     <---           CONTACT          -->
     <--- -------------------------- -*/
 
+    .top {
+        margin: auto !important;
+    }
+
     .contact-group {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
         width: 600px;
         margin: auto;
     }
 
     .contact-group h2 {
         margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .contact-group p {
+        width: 420px;
+    }
+
+    .contact-button {
+        display: inline-block;
     }
 }
 
@@ -781,6 +791,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .contact-group h2 {
         margin: 0;
+        text-align: left;
     }
 }
 
