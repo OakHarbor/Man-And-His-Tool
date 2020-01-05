@@ -306,17 +306,13 @@
     <--- -------------------------- -*/
 
     #hero {
-        height: 700px;
+        height: 600px;
         background-attachment: fixed;
         position: relative;
     }
 
     #home-h {
         font-size: 70px;
-        padding-top: 0;
-        -webkit-transform: translateY(-80px);
-            -ms-transform: translateY(-80px);
-                transform: translateY(-80px);
     }
 
     #hero img {
@@ -332,9 +328,9 @@
     <--- -------------------------- -*/
 
     #services {
-        padding-top: 0;
+        padding-top: 100px;
         position: relative;
-        padding-bottom: 0;
+        padding-bottom: 20px;
     }
 
     .topper h2 {
