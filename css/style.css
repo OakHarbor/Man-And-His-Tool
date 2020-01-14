@@ -316,8 +316,14 @@
 .why-item p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 10px;
+}
+
+.why-item p span {
+    font-size: 20px;
+    font-weight: normal;
+    opacity: .7;
 }
 
 .content:before {
@@ -417,6 +423,7 @@
 <--- -------------------------- -*/
 
 .offer {
+    position: relative;
     padding-top: 0;
     padding-bottom: 0px;
     -webkit-transform: translateY(-50px);
@@ -432,7 +439,7 @@
 .left h2 {
     font-size: 35px;
     font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .left h2 span {
@@ -440,12 +447,12 @@
 }
 
 .right-card {
-    height: 200px;
+    height: auto;
     margin-bottom: 50px;
 }
 
 .right-card:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 .right-card svg {
@@ -453,13 +460,19 @@
     height: auto;
     float: left;
     margin-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 160px;
 }
 
 .right-card h3 {
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+
+.services-button {
+    position: absolute;
+    bottom: -110px;
+    display: block;
 }
 
 /* Iphone 5 */
@@ -877,8 +890,12 @@
     <---           OFFER            -->
     <--- -------------------------- -*/
 
-    .left h2 {
-        margin-bottom: 80px;
+    .offer {
+        padding-bottom: 100px;
+    }
+
+    .left {
+        display: block;
     }
 
     .right {
@@ -910,6 +927,26 @@
 
     .right-card:last-child {
         margin-bottom: 50px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left p {
+        display: block;
+        width: 100%;
+    }
+    .left h2 {
+        display: block;
+        width: 100%;
+    }
+
+    .services-button {
+        bottom: 20px;
+        display: block;
     }
 
     /*-- -------------------------- -->
@@ -1119,6 +1156,10 @@
         z-index: 100;
     }
 
+    .box-content {
+        height: 92px;
+    }
+
     /*-- -------------------------- -->
     <---           SERVICE          -->
     <--- -------------------------- -*/
@@ -1163,7 +1204,8 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        padding-bottom: 0;
+        padding: 0;
+        width: 1300px;
     }
 
     .icon-group {
@@ -1264,6 +1306,10 @@
                 flex-direction: row;
     }
 
+    .card {
+        width: 33%;
+    }
+
     .card h2 {
         margin-left: 0;
         margin-top: 0;
@@ -1286,6 +1332,11 @@
 
     .left {
         width: 320px;
+        align-items: flex-start;
+    }
+
+    .left h2 {
+        margin-bottom: 0;
     }
 
     .right {
@@ -1306,6 +1357,13 @@
 
     .right-card {
         width: 320px;
+    }
+
+    .services-button {
+        position: relative;
+        -webkit-transform: translateY(-50px);
+            -ms-transform: translateY(-50px);
+                transform: translateY(-50px);
     }
 
     /*-- -------------------------- -->
@@ -1393,6 +1451,10 @@
         padding-top: 100px;
     }
 
+    #meet-the-team h2, #meet-the-team h3 {
+        text-align: center;
+    }
+
     .team-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1408,6 +1470,10 @@
     .team-card {
         width: 350px;
         margin: 0;
+    }
+
+    .team-content {
+        text-align: center;
     }
 
     .team-button {
