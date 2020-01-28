@@ -775,6 +775,9 @@
 
     #home-h {
         font-size: 70px;
+        -webkit-transform: translateY(70px);
+            -ms-transform: translateY(70px);
+                transform: translateY(70px);
     }
 
     #hero img {
@@ -928,7 +931,7 @@
 
     .top-square h3 {
         width: 440px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .right-square {
@@ -986,7 +989,7 @@
     .middle-square h3 {
         width: 440px;
         text-align: right;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .left-square {
@@ -1047,7 +1050,7 @@
     .bottom-square h3 {
         width: 440px;
         text-align: left;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .right-square-bottom {
