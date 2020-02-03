@@ -7,7 +7,7 @@
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/repair.jpg');
+    background: url('/images/stairs.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -19,7 +19,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .2;
+    opacity: .6;
     top: 0;
     left: 0;
 }

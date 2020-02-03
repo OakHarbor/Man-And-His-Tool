@@ -13,6 +13,14 @@
     --primary: rgb(253, 118, 45);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 body, html {
 	margin: 0;
 	padding: 0;
@@ -831,6 +839,15 @@ footer {
 	margin-bottom: 50px;
 }
 
+.footer-item a {
+    color: #f5f3f3;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    color: var(--primary);
+}
+
 .item-content i {
 	margin-right: 15px;
 	color: var(--primary);
@@ -929,7 +946,11 @@ footer p {
 		border-bottom: 1px solid rgba(250, 250, 250, .3);
 		padding: 7px 0;
 		width: 220px;
-	}
+    }
+    
+    .item-1 {
+        width: 250px;
+    }
 
 	.item-content span {
 		display: block;
