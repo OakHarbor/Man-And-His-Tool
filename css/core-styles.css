@@ -289,7 +289,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation Links */
 
 .mobile-wrapper img {
-	height: 55px;
+    height: auto;
+    width: 200px;
 }
 
 .navbar-menu {
@@ -570,7 +571,8 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 !important;
 		position: absolute;
 		left: 2em;
-		height: 80px;
+        height: auto;
+        width: auto;
 	}
 
 	/*navbar */
@@ -909,6 +911,10 @@ footer p {
 
     footer {
         padding-top: 100px;
+    }
+
+    .item-content p {
+        width: 300px;
     }
 
 }

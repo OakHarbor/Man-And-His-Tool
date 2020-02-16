@@ -523,6 +523,101 @@
 }
 
 /*-- -------------------------- -->
+<---           GALLERY          -->
+<--- -------------------------- -*/
+
+#gallery {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery-topper {
+    background: url("/images/image-11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.dark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .7;
+}
+
+.gallery-topper h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+}
+
+.gallery-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+.gallery-button {
+    margin: 30px auto;
+    border: none;
+    margin-bottom: 60px;
+    background: var(--primary);
+    color: #000;
+    font-weight: 900;
+    display: block;
+    position: relative;
+    z-index: 50;
+}
+
+.gallery-button:before {
+    border-top: 2px solid var(--primary);
+    border-left: 2px solid var(--primary);
+}
+
+.gallery-button:after {
+    border-bottom: 2px solid var(--primary);
+    border-right: 2px solid var(--primary);
+}
+
+.gallery-group img {
+    width: 100%;
+}
+
+/*-- -------------------------- -->
 <---           REVIEWS          -->
 <--- -------------------------- -*/
 
@@ -963,6 +1058,57 @@
     }
 
     /*-- -------------------------- -->
+    <---          GALLERY           -->
+    <--- -------------------------- -*/
+
+    #gallery {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .gallery-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .gallery-group img {
+        width: 50%;
+    }
+
+    .gallery-topper {
+        margin: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: auto !important;
+    }
+
+    .gallery-topper h2 {
+        margin-top: 0;
+    }
+
+    .gallery-button {
+        margin-bottom: 0;
+    }
+
+    /*-- -------------------------- -->
     <---         TESTIMOBIALS       -->
     <--- -------------------------- -*/
 
@@ -994,6 +1140,14 @@
         margin-bottom: 0;
     }
 
+    #meet-the-team h2 {
+        text-align: center;
+    }
+
+    #meet-the-team h3 {
+        text-align: center;
+    }
+
     .team-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1007,7 +1161,7 @@
                 align-items: center;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between;
+                justify-content: center;
     }
 
     /*-- -------------------------- -->
@@ -1441,6 +1595,36 @@
            -ms-flex-pack: center;
                justify-content: center;
        margin-bottom: 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---           GALLERY          -->
+    <--- -------------------------- -*/
+
+    .gallery-group {
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .gallery-topper {
+        background-attachment: fixed;
+    }
+
+    .gallery-group img {
+        width: 20%;
+        margin: 0;
+        padding: 0;
     }
 
     /*-- -------------------------- -->

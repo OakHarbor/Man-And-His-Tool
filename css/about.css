@@ -7,7 +7,7 @@
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/white-room.jpg');
+    background: url('/images/image-13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -331,7 +331,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/repair.jpg");
+    background: url("/images/image-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -389,7 +389,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/mission.jpg");
+    background: url("/images/image-20-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -594,7 +594,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        height: 400px;
+        height: 450px;
         margin-bottom: 0;
     }
 
@@ -613,13 +613,18 @@
             -ms-flex-pack: center;
                 justify-content: center;
         margin: 0;
-        height: 400px;
+        height: 450px;
         padding-top: 50px;
         width: 50%;
     }
 
+    .top-square h3 {
+        font-size: 1em;
+    }
+
     .right-square {
         width: 50%;
+        height: 450px;
     }
 
     .top-square svg {
@@ -642,7 +647,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        height: 400px;
+        height: 450px;
         margin-bottom: 0;
     }
 
@@ -661,7 +666,8 @@
             -ms-flex-pack: center;
                 justify-content: center;
         margin: 0;
-        height: 400px;
+        height: 450;
+        max-height: 450px;
         -webkit-box-ordinal-group: 2;
             -ms-flex-order: 1;
                 order: 1;
@@ -675,11 +681,16 @@
         width: 100%;
     }
 
+    .middle-square h3 {
+        font-size: 1em;
+    }
+
     .left-square {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2;
         width: 50%;
+        height: 450px;
     }
 
     /*-- -------------------------- -->
@@ -694,7 +705,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        height: 400px;
+        height: 450px;
         margin-bottom: 0;
     }
 
@@ -713,7 +724,7 @@
             -ms-flex-pack: center;
                 justify-content: center;
         margin: 0;
-        height: 400px;
+        height: 450px;
         text-align: left;
         padding-top: 50px;
         width: 50%;
@@ -721,11 +732,16 @@
 
     .right-square-bottom {
         width: 50%;
+        height: 450px;
     }
 
     .bottom-square h2 {
         text-align: left;
         width: 100%;
+    }
+
+    .bottom-square h3 {
+        font-size: 1em;
     }
 
     /*-- -------------------------- -->

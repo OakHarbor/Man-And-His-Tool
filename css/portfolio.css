@@ -9,9 +9,9 @@ html {
 }
 
 #hero {
-    min-height: 300px;
-    height: 300px;
-    background: url("/images/victorian-3.png");
+    min-height: 400px;
+    height: 400px;
+    background: url("/images/image-21.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,6 +53,14 @@ html {
 
 .gallery {
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .gallery img {
@@ -109,11 +117,22 @@ html {
 .modal-three,
 .modal-four,
 .modal-five,
-.modal-six
+.modal-six,
 .modal-seven,
 .moadl-eight,
 .modal-nine,
-.modal-ten {
+.modal-ten,
+.modal-eleven,
+.modal-twelve,
+.modal-thirteen,
+.modal-fourteen,
+.modal-fifteen,
+.modal-sixteen,
+.modal-seventeen,
+.moadl-eighteen,
+.modal-nineteen,
+.modal-twenty,
+.modal-twenty-one {
     visibility: hidden;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -129,9 +148,20 @@ html {
 .modal-five.clicked,
 .modal-six.clicked,
 .modal-seven.clicked,
-.moadl-eight.clicked,
+.modal-eight.clicked,
 .modal-nine.clicked,
-.modal-ten.clicked {
+.modal-ten.clicked,
+.modal-eleven.clicked,
+.modal-twelve.clicked,
+.modal-thirteen.clicked,
+.modal-fourteen.clicked,
+.modal-fifteen.clicked,
+.modal-sixteen.clicked,
+.modal-seventeen.clicked,
+.modal-eighteen.clicked,
+.modal-nineteen.clicked,
+.modal-twenty.clicked,
+.modal-twenty-one.clicked {
     visibility: visible;
     margin: auto;
     z-index: 2000;
@@ -222,6 +252,7 @@ html.clicked {
 
     .gallery img {
         width: 300px;
+        max-height: 300px;
         margin: 15px;
     }
 
