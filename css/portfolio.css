@@ -65,7 +65,7 @@ html {
 
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .gallery img:hover {
