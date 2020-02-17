@@ -143,7 +143,7 @@
 #our-mission {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url("/images/mission.jpg");
+    background: url("/images/ryan.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -398,11 +398,11 @@
     <--- -------------------------- -*/
 
     #our-mission {
-        background: url("/images/mission.jpg");
+        background: url("/images/ryan.JPG");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         padding-top: 100px;
         padding-bottom: 100px;
     }
