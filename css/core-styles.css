@@ -302,7 +302,8 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	z-index: 1000;
+    z-index: 1000;
+    overflow: hidden;
 }
 
 .side-nav {
