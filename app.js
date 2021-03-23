@@ -227,3 +227,10 @@ $homeIcon.on("click", function(e) {
   $modalTwentyOne.removeClass("clicked");
   $html.removeClass("clicked");
 });
+
+var $bannerButton = $("#banner-button");
+var $banner = $(".banner");
+$bannerButton.on("click", function (e) {
+  $banner.addClass("none");
+  $bannerButton.addClass("none");
+});
