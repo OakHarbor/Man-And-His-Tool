@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-	padding: 0 36px;
+	padding: 0 10px;
 	margin: auto;
 }
 
@@ -283,14 +283,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .hamburger {
 	position: absolute;
-	right: 2em;
+	right: 10px;
 }
 
 /* Navigation Links */
 
 .mobile-wrapper img {
     height: auto;
-    width: 200px;
+    width: 130px;
+    transform: translateY(20px);
+    z-index: 100;
 }
 
 .navbar-menu {
@@ -303,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     z-index: 1000;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .side-nav {
@@ -573,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
 		position: absolute;
 		left: 2em;
         height: auto;
-        width: 300px;
+        width: 200px;
 	}
 
 	/*navbar */
@@ -604,7 +606,8 @@ h1, h2, h3, h4, h5, h6 {
 		z-index: 100;
 		left: 0;
 		background: transparent;
-		margin-top: 25px;
+        margin-top: 35px;
+        overflow: visible;
 	}
 
 	.navbar-menu:before {
